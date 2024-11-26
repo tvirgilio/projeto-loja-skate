@@ -225,5 +225,76 @@ footer {
     margin-top: 10px;
 }
 
+/* Estilo do formulário de contato */
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
+form table {
+    width: 100%;
+}
 
+form table tr td {
+    padding: 10px 5px;
+}
+
+form label {
+    display: block;
+    font-size: 14px;
+    color: #f39c12;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #f39c12;
+    box-shadow: 0 0 8px rgba(243, 156, 18, 0.5);
+    outline: none;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+form textarea {
+    resize: none;
+}
+
+form .btn-comprar {
+    width: auto;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form .btn-comprar:hover {
+    background-color: #e67e22;
+}
